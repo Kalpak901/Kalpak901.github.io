@@ -3,23 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalpak Likhar | Automated Lead Generation Engine</title>
+    <title>Kalpak Likhar | Comprehensive Real Estate Lead Engine</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     
     <style>
-        /* --- NEW BRIGHT THEME & Variables --- */
         :root {
             --primary-color: #10B981; /* Vibrant Green */
-            --background-color: #F9FAFB; /* Very Light Grey */
-            --surface-color: #FFFFFF; /* White */
-            --text-color: #374151; /* Dark Grey */
-            --heading-color: #111827; /* Near Black */
-            --border-color: #E5E7EB; /* Light border color */
+            --secondary-color: #F59E0B; /* Golden Yellow for Stripe */
+            --background-color: #F9FAFB; 
+            --surface-color: #FFFFFF; 
+            --text-color: #374151; 
+            --heading-color: #111827; 
+            --border-color: #E5E7EB; 
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Poppins', sans-serif; background-color: var(--background-color); color: var(--text-color); line-height: 1.7; }
+        
+        /* --- NEW ANNOUNCEMENT STRIPE --- */
+        .announcement-stripe {
+            background-color: var(--secondary-color);
+            color: #111827;
+            text-align: center;
+            padding: 10px 20px;
+            font-weight: 500;
+        }
+        .announcement-stripe p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
         .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
         section { padding: 80px 0; text-align: center; }
         h1, h2, h3 { color: var(--heading-color); margin-bottom: 20px; }
@@ -34,36 +48,12 @@
         .hero { padding: 120px 0; }
         .hero p { font-size: 1.2rem; margin: 20px auto 40px; }
         
-        /* --- NEW DETAILED SERVICES SECTION --- */
-        .service-item {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 50px;
-            text-align: left;
-            align-items: center;
-            margin-top: 60px;
-        }
-        .service-item:nth-child(odd) {
-            grid-template-columns: 2fr 1fr;
-        }
-        .service-item svg {
-            width: 100%;
-            max-width: 150px;
-            height: auto;
-            color: var(--primary-color);
-            margin: 0 auto;
-        }
-         .service-item:nth-child(odd) .service-icon {
-            order: 2;
-        }
-        .service-item h3 {
-             margin-top: 0;
-             font-size: 1.8rem;
-        }
-        .service-item p {
-            margin-left: 0;
-            max-width: 100%;
-        }
+        .service-item { display: grid; grid-template-columns: 1fr 2fr; gap: 50px; text-align: left; align-items: center; margin-top: 60px; }
+        .service-item:nth-child(odd) { grid-template-columns: 2fr 1fr; }
+        .service-item svg { width: 100%; max-width: 150px; height: auto; color: var(--primary-color); margin: 0 auto; }
+        .service-item:nth-child(odd) .service-icon { order: 2; }
+        .service-item h3 { margin-top: 0; font-size: 1.8rem; }
+        .service-item p { margin-left: 0; max-width: 100%; }
 
         #pricing { background-color: var(--surface-color); }
         .pricing-card { background-color: var(--background-color); border: 1px solid var(--border-color); border-top: 5px solid var(--primary-color); border-radius: 10px; padding: 40px; max-width: 450px; margin: 40px auto 0; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
@@ -87,6 +77,10 @@
 </head>
 <body>
 
+    <div class="announcement-stripe">
+        <p>Now sourcing multiple lead types including FSBO, FRBO, Expired Listings, and more!</p>
+    </div>
+
     <header class="header">
         <div class="container">
             <a href="#" class="logo">Kalpak Likhar</a>
@@ -97,30 +91,30 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h1>Stop Searching. Start Closing.</h1>
-                <p>The Outbound Lead Engine is your dedicated, AI-powered service that delivers a consistent stream of high-quality, pre-researched leads directly to your dashboard, every single day.</p>
-                <a href="#services" class="btn">Learn How It Works</a>
+                <h1>The Complete Real Estate Prospecting Engine.</h1>
+                <p>My service is your dedicated, AI-powered partner that delivers a consistent stream of high-intent leads from across the market—sellers, buyers, and investors—directly to your dashboard.</p>
+                <a href="#services" class="btn">Discover Your New Advantage</a>
             </div>
         </section>
 
         <section id="services">
             <div class="container">
-                <h2>What Your Engine Includes</h2>
+                <h2>What Your Engine Unlocks</h2>
                 
                 <div class="service-item">
                     <div class="service-text">
-                        <h3>High-Quality Daily Leads</h3>
-                        <p>Your engine works 24/7, scanning public sources like Craigslist for fresh "For Sale By Owner" listings in your target US markets. Forget manual searching; new opportunities are automatically sourced and added to your private dashboard as they appear, giving you a critical speed advantage.</p>
+                        <h3>A Multi-Source Lead Pipeline</h3>
+                        <p>Go beyond a single lead type. Your engine works 24/7, scanning public sources for a wide range of opportunities: motivated **For Sale By Owner (FSBO)** sellers, **For Rent By Owner (FRBO)** landlords who may become investors or sellers, and other high-value prospects. Stop missing opportunities.</p>
                     </div>
                     <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" /></svg>
+                        <svg xmlns="http://www.w.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" /></svg>
                     </div>
                 </div>
 
                 <div class="service-item">
                     <div class="service-text">
-                        <h3>Actionable AI Intelligence</h3>
-                        <p>A lead is more than a name. Using Perplexity and Gemini, your engine enriches every lead with valuable context. We uncover property details, market data, and other key information, then craft unique, personalized outreach angles for each prospect. This intelligence transforms a cold call into a warm, informed conversation.</p>
+                        <h3>AI-Powered Market Intelligence</h3>
+                         <p>A lead is just the start. Using Perplexity and Gemini, your engine enriches every prospect with valuable context—property history, neighborhood data, and potential motivations. It then crafts unique outreach angles, turning a cold lead into a warm, intelligent conversation and positioning you as the market expert.</p>
                     </div>
                     <div class="service-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.562L16.25 22.5l-.648-1.938a3.375 3.375 0 00-2.684-2.684L11.25 18l1.938-.648a3.375 3.375 0 002.684-2.684L16.25 13.5l.648 1.938a3.375 3.375 0 002.684 2.684L21.75 18l-1.938.648a3.375 3.375 0 00-2.684 2.684z" /></svg>
@@ -129,44 +123,4 @@
                 
                 <div class="service-item">
                     <div class="service-text">
-                        <h3>Your Live "Mission Control" Dashboard</h3>
-                        <p>All your leads are delivered in real-time to a private, easy-to-use Google Sheet dashboard. You can track prospects, view the AI-generated intelligence, and manage your pipeline from anywhere. Plus, you'll receive an automated weekly performance summary to keep you informed of all the progress your engine is making on your behalf.</p>
-                    </div>
-                    <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" /></svg>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section id="pricing">
-            <div class="container">
-                <h2>Simple, All-Inclusive Pricing</h2>
-                <p>One plan. Zero complications. Everything you need to fuel your growth.</p>
-                <div class="pricing-card">
-                    <h3>Outbound Lead Engine</h3>
-                    <p>The complete, fully managed "done-for-you" solution.</p>
-                    <div class="price">$500<span>/month</span></div>
-                    <ul>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg>24/7 Automated Lead Sourcing in Your Market</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg>AI-Powered Data Enrichment & Angle Generation</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg>Private "Mission Control" Google Sheet Dashboard</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg>Automated Weekly Performance Summaries</li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg>Full Setup & Dedicated Support</li>
-                    </ul>
-                    <a href="#" class="btn">Launch Your Engine Now</a>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Kalpak Likhar | AI Automation Services</p>
-        </div>
-    </footer>
-
-</body>
-</html>
+                        <h3>Your Live
