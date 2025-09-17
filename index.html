@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalpak Likhar | Freelance AI Automation Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- Basic Setup & Variables --- */
+        :root {
+            --primary-color: #00A8FF; /* Bright Blue Accent */
+            --background-color: #121212; /* Dark Charcoal */
+            --surface-color: #1E1E1E; /* Slightly Lighter Charcoal for cards */
+            --text-color: #E0E0E0; /* Light Grey */
+            --heading-color: #FFFFFF; /* White */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* --- Layout & General Styling --- */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        h1, h2, h3 {
+            color: var(--heading-color);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* --- Header --- */
+        .header {
+            background-color: var(--surface-color);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #333;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--heading-color);
+            text-decoration: none;
+        }
+
+        /* --- Buttons --- */
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #007bb5;
+            transform: translateY(-2px);
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            padding: 120px 0;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: 20px auto 40px;
+        }
+
+        /* --- How It Works Section --- */
+        .how-it-works-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .step-card {
+            background-color: var(--surface-color);
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
+        }
+
+        .step-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .step-card svg {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        /* --- About Me Section --- */
+        #about {
+            background-color: var(--surface-color);
+        }
+
+        .about-content {
+            max-width: 700px;
+            margin: 40px auto 0;
+        }
+        
+        .about-content img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        /* --- Footer --- */
+        .footer {
+            background-color: #000;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        /* --- Responsive Design --- */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.8rem;
+            }
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Kalpak Likhar</a>
+            <a href="mailto:your.email@example.com" class="btn">Contact Me</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Automate Your Growth. Smarter.</h1>
+                <p>I design and build custom AI-powered lead generation engines for businesses. Stop wasting time on manual prospecting and wake up to a list of high-quality, pre-researched leads every morning.</p>
+                <a href="#contact" class="btn">Book a Free Discovery Call</a>
+            </div>
+        </section>
+
+        <section id="how-it-works">
+            <div class="container">
+                <h2>How It Works</h2>
+                <div class="how-it-works-grid">
+                    <div class="step-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" /></svg>
+                        <h3>1. Daily Sourcing</h3>
+                        <p>My automated system scans public sources like Craigslist 24/7 to find fresh leads in your target market the moment they appear.</p>
+                    </div>
+                    <div class="step-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.562L16.25 22.5l-.648-1.938a3.375 3.375 0 00-2.684-2.684L11.25 18l1.938-.648a3.375 3.375 0 002.684-2.684L16.25 13.5l.648 1.938a3.375 3.375 0 002.684 2.684L21.75 18l-1.938.648a3.375 3.375 0 00-2.684 2.684z" /></svg>
+                        <h3>2. AI Enrichment</h3>
+                        <p>Using APIs like Perplexity, each lead is researched to uncover key details, recent news, and valuable context for outreach.</p>
+                    </div>
+                    <div class="step-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+                        <h3>3. Personalized Outreach</h3>
+                        <p>Gemini AI crafts a unique, personalized outreach angle for every lead, dramatically increasing response rates over generic templates.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="https://via.placeholder.com/150" alt="Kalpak Likhar">
+                    <h3>Hi, I'm Kalpak Likhar.</h3>
+                    <p>I am a freelance automation specialist based in Nagpur, India. I'm passionate about leveraging cutting-edge AI to solve real-world business problems and create efficient growth systems for my clients. Because of the time difference with the US, I can ensure your lead generation engine is working overnight, providing you with fresh opportunities every single morning.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Ready to Automate Your Growth?</h2>
+                <p>Let's have a quick, no-pressure chat to see if an AI-powered engine is right for your business.</p>
+                <a href="mailto:your.email@example.com" class="btn">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Kalpak Likhar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
